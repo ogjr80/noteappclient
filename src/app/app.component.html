@@ -1,3 +1,10 @@
 <h1>
-  {{title}}
+  Angular 2 With {{title}}
 </h1>
+<hr>
+
+<ul>
+  <li *ngFor="let note of noteItems">
+        {{note.Body}}
+   </li>
+</ul> 
